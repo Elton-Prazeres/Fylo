@@ -4,10 +4,13 @@ body {
     /* background-color: var(--primary-Dark-Blue-bg-email); */
     font-family: "Open Sans", serif;
     font-size: 14px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .main {
     background-color: var(--primary-Dark-Blue-bg-email);
+    width: 100vw;
 }
 
 .main main {
@@ -114,8 +117,9 @@ body {
 
 .main .bg-curvy-desktop {
     position: absolute;
-    top: 300px;
+    top: 50%;
     max-height: 1000px;
+    width: 100vw;
 }
 /*-----position: absolute;--------------segunda-sessão---------position: relative;--------------------*/
 
@@ -212,7 +216,7 @@ body {
 .illustration {
     background-color: var(--primary-Dark-Blue-main-bg);
     height: 50vh;
-    width: 1360px;
+    width: 100vw;
 }
 
 .produtive {
@@ -221,9 +225,10 @@ body {
 }
 
 .produtive .illustration img {
-    margin: 30;
-    width: 45%;
+    width: 50%;
     height: 70%;
+    /* width: 50%;
+    height: 80%; */
 }
 
 .produtive .illustration {
@@ -265,6 +270,11 @@ body {
     padding-left: 5px;
 }
 
+.produtive .coments {
+    background-color: var(--primary-Dark-Blue-main-bg);
+    padding: 30px;
+}
+
 .produtive .illustration .works .hr {
     margin: 0px 20px 0px 20px;
     width: 150px;
@@ -273,8 +283,8 @@ body {
 
 .produtive .profile-1 {
     background-color: var(--primary-Dark-Blue-testimonials-bg);
-    width: 300px;
-    height: 200px;
+    display: flex;
+    justify-content: space-between;    
 }
 
 .produtive .profile-1 .card-1 {
@@ -296,7 +306,15 @@ body {
     flex-direction: column;
 }
 
-.produtive .colaborators {
+/* .produtive .profile .work img {
+    width: 20px;
+    height: 20px;
+} */
+
+.colaborators {
+    
+    margin: 0 50px;
+    gap: 20px;
     display: flex;
     justify-content: space-between;
     background-color: var(--primary-Dark-Blue-main-bg);
