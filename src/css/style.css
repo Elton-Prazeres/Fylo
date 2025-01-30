@@ -397,6 +397,46 @@ body {
     color: var(--neutral-White);
 }
 
+/* RODAPÉ */
+
+.footer {
+    background-color: var(--primary-Dark-Blue-footer-bg);
+}
+
+.footer .footer-logo {
+    width: 100vw;
+
+}
+
+.footer .footer-logo img {
+    width: 60px;
+    margin: 80px 40px 40px;
+}
+
+.footer1 {
+    width: 25vw;
+    height: 40vh;
+    text-align: left;
+}
+
+.footer1 img {
+    margin: 20px 15px;
+}
+
+.footer-logo img {
+    color: var(--neutral-White);
+}
+
+.footer .location {
+    display: flex;
+}
+
+.footer .footer-location {
+    width: 10px;
+    height: 15px;
+}
+
+
 /* .produtive {
     background-color: var(--primary-Dark-Blue-testimonials-bg);
 } */
