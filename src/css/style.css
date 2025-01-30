@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..700&display=swap');
 
 body {
-    /* background-color: var(--primary-Dark-Blue-bg-email); */
     font-family: "Open Sans", serif;
     font-size: 14px;
     width: 100vw;
@@ -25,7 +24,7 @@ body {
 .main .header {
     display: flex;
     justify-content: space-between;
-    width: 1340px;/*nessa parte precisa ajsutar a largura*/
+    width: 1340px;/*qnd fazer responsivo ajustar width*/
     height: 25%;
 }
 
@@ -64,7 +63,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .main .section .txt1 {
     max-width: 480px;
@@ -120,10 +118,7 @@ body {
     top: 50%;
     max-height: 1000px;
     width: 100vw;
-}
-/*-----position: absolute;--------------segunda-sessão---------position: relative;--------------------*/
-
-
+}/*Início da 2 seção*/
 
 .bg-curvy-desktop {
     width: 1340px;
@@ -217,7 +212,7 @@ body {
     background-color: var(--primary-Dark-Blue-main-bg);
     height: 50vh;
     width: 100vw;
-}
+}/*início da 3 seção*/
 
 .produtive {
     background-color: var(--primary-Dark-Blue-main-bg);
@@ -227,8 +222,6 @@ body {
 .produtive .illustration img {
     width: 35%;
     height: 50%;
-    /* width: 50%;
-    height: 80%; */
 }
 
 .produtive .illustration {
@@ -302,13 +295,7 @@ body {
 
 .produtive .profile-1 .card1 {
     background-color: var(--primary-Dark-Blue-testimonials-bg);
-    /* text-align: left; */
     position: relative;
-    /* height: 183px; */
-    /* z-index: 1; */
-    /* width: 150px;
-    height: 120px;
-    gap: 10px; */
 }
  
 .produtive .profile-1 .card1 .bg-quotes {
@@ -325,7 +312,6 @@ body {
     background-color: var(--primary-Dark-Blue-testimonials-bg);
 }
 
-
 .produtive .profile-1 .card-1 p {
     padding: 30px;
     margin: 20px;
@@ -340,11 +326,6 @@ body {
     flex-direction: column;
 }
 
-/* .produtive .profile .work img {
-    width: 20px;
-    height: 20px;
-} */
-
 .colaborators {
     display: flex;
     justify-content: space-between;
@@ -356,16 +337,9 @@ body {
     gap: 10px;
 }
 
-
 .produtive .colaborators .profile-1 {
     height: 200px;
 }
-
-/* .produtive .colaborators .profile-1 .bg-quotes {
-    position: relative;
-    top: 10px;
-} */
-
 
 .produtive .colaborators .profile-1  p {
     margin: 35px 25px 0px 25px;
@@ -380,7 +354,6 @@ body {
 .produtive .colaborators .profile-1  .profile img {
     margin-left: 25px;
 }
-
 
 .produtive .colaborators .name1 {
    font-size: 11px;
@@ -397,9 +370,7 @@ body {
     color: var(--neutral-White);
 }
 
-/* RODAPÉ */
-
-.footer {
+.footer {   /* RODAPÉ */
     background-color: var(--primary-Dark-Blue-footer-bg);
 }
 
@@ -418,7 +389,7 @@ body {
     height: 30vh;
 }
 
-.footer1 {
+.footer .footer1 {
     width: 25vw;
     height: 40vh;
     text-align: left;
@@ -533,108 +504,8 @@ body {
     border-radius: 50px;
 }
 
-
-
-/* .produtive {
-    background-color: var(--primary-Dark-Blue-testimonials-bg);
-} */
-
-
-
-/* .bg-curvy1 {
-    position: relative;
-    bottom: 180px;
-    z-index: 1;
-} */
-
-/* .bg-curvy1 img {
-    height: 5%;
-    width: 1280px;
-} */
-
-
-
-
-/* .pricipal .images{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header .images {
-
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    width: 1349px;/*nessa parte precisa ajsutar a largura*/
-    /* height: 10%;
-}
-
-.header .main .main1 {
-    padding: 20px;
-    width: 100%;
-    text: center; */
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-/* }
-
- .header .menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header .menu a {
-
-    align-items: center;
-    justify-content: center;
-    height: 30%;
-}
-
-.header .menu li {
-    margin: 20px;
-}
-
-.main {
-    width: auto;
-    align-items: center;
-
-}
-
-.main .main1 img {
-    max-width: 480px;
-    max-height: 320px;
-    text-align: center;
- */
-
-
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-*/
-
-/*
-.header1 {
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    align-items: center;
-} */
-
-
-
-
-
-
-
+/*ponto de parada para continuação do projeto
+falta caixa de email, e JS para validação*/
 .attribution {
     font-size: 11px; text-align: center;
 }
