@@ -413,13 +413,18 @@ body {
     margin: 80px 40px 40px;
 }
 
+.footer-base {
+    width: 100vw;
+    height: 30vh;
+}
+
 .footer1 {
     width: 25vw;
     height: 40vh;
     text-align: left;
 }
 
-.footer1 img {
+.footer-base img {
     margin: 20px 15px;
 }
 
@@ -434,6 +439,38 @@ body {
 .footer .footer-location {
     width: 10px;
     height: 15px;
+}
+
+.footer .footer-base {/*base do footer*/
+    display: flex;
+   
+}
+
+.footer .footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .footer2 p {
+    margin-left: 5px;
+}
+
+.footer .footer2 img {
+    display: flex;
+    
+    margin: 0px 0 0 30px;
+}
+
+.footer .footer-phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .footer-contact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 
 
