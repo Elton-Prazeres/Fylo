@@ -473,6 +473,13 @@ body {
     margin-top: 20px;
 }
 
+.footer .footer3 {
+    margin-left: 70px;
+}
+
+.footer .footer3 a {
+    color: var(--neutral-White);
+}
 
 /* .produtive {
     background-color: var(--primary-Dark-Blue-testimonials-bg);
