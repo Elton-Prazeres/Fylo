@@ -13,7 +13,6 @@ body {
 }
 
 .main main {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +44,12 @@ body {
 .main .header .menu li a {
     color: var(--neutral-White);
     margin-top: 20px;
+}
+
+.main .header .menu li a:hover {
+    text-decoration: underline;
+    color: var(--neutral-White);
+    font-weight: 500;
 }
 
 .main .section .img {
