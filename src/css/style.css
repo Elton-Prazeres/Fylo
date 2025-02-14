@@ -564,4 +564,10 @@ falta JS para validação*/
     height: 35px;
     width: 150px;
     border-radius: 50px;
+    transition: 0.3s;
+}
+
+.footer .email-box .btn-email:hover {
+    background-color: var(--accent-Cyan-action-gradient);
+    color: var(--neutral-White);
 }
