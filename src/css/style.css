@@ -376,6 +376,7 @@ body {
 }
 
 .footer {   /* RODAPÉ */
+    height: 65%;
     background-color: var(--primary-Dark-Blue-footer-bg);
     justify-items: center;
     position: relative; 
@@ -527,7 +528,7 @@ body {
 }
 
 /*ponto de parada para continuação do projeto
-falta caixa de email, e JS para validação*/
+falta JS para validação*/
 
 .footer .email-box {
     width: 600px;
@@ -536,7 +537,7 @@ falta caixa de email, e JS para validação*/
     text-align: center;
     border-radius: 10px;
     position: absolute;
-    bottom: 230px;
+    bottom: 290px;
     left: 25%;
     box-shadow: 4px 2px 2px black;
 }
@@ -563,12 +564,4 @@ falta caixa de email, e JS para validação*/
     height: 35px;
     width: 150px;
     border-radius: 50px;
-}
-
-.attribution {
-    font-size: 11px; text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
