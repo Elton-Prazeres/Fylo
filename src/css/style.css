@@ -377,6 +377,8 @@ body {
 
 .footer {   /* RODAPÉ */
     background-color: var(--primary-Dark-Blue-footer-bg);
+    justify-items: center;
+    position: relative; 
 }
 
 .footer .footer-logo {
@@ -526,6 +528,20 @@ body {
 
 /*ponto de parada para continuação do projeto
 falta caixa de email, e JS para validação*/
+
+.footer .email-box {
+    width: 600px;
+    height: 200px;
+    background-color: var(--primary-Dark-Blue-bg-email);
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 230px;
+    left: 25%;
+    box-shadow: 4px 2px 2px black;
+}
+
+
 .attribution {
     font-size: 11px; text-align: center;
 }
